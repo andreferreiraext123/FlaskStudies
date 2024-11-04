@@ -12,6 +12,6 @@ def market_page():
     items = [
         {'ID': 1, 'Name': 'Phone', 'Barcode': '312312312', 'Price': 500},
         {'ID': 2, 'Name': 'Laptop', 'Barcode': '33333333', 'Price': 230},
-        {'ID': 3, 'Name': 'Headset', 'Barcode': '32132111', 'Price': 100}
+        {'ID': 3, 'Name': 'Headset', 'Barcode': '32132111', 'Price': 200}
     ]
     return render_template('market.html', items=items)
